@@ -1,0 +1,1451 @@
+2023-03-20 14:45:54.075  INFO 28012 --- [restartedMain] c.s.a.p.HrManagementSystemApplication    : Starting HrManagementSystemApplication on LAPTOP-LT6KAC91 with PID 28012 (C:\Users\balra\Downloads\hr-management-system-master\hr-management-system-master\target\classes started by balra in C:\Users\balra\Downloads\hr-management-system-master\hr-management-system-master)
+2023-03-20 14:45:54.079  INFO 28012 --- [restartedMain] c.s.a.p.HrManagementSystemApplication    : No active profile set, falling back to default profiles: default
+2023-03-20 14:45:54.123  INFO 28012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-20 14:45:54.123  INFO 28012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-20 14:45:54.851  INFO 28012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-03-20 14:45:54.862 DEBUG 28012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Scanning for JPA repositories in packages com.selimhorri.app.pack.
+2023-03-20 14:45:54.872 DEBUG 28012 --- [restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [C:\Users\balra\Downloads\hr-management-system-master\hr-management-system-master\target\classes\com\selimhorri\app\pack\repositories\DepartmentRepository.class]
+2023-03-20 14:45:54.872 DEBUG 28012 --- [restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [C:\Users\balra\Downloads\hr-management-system-master\hr-management-system-master\target\classes\com\selimhorri\app\pack\repositories\EmployeeRepository.class]
+2023-03-20 14:45:54.872 DEBUG 28012 --- [restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [C:\Users\balra\Downloads\hr-management-system-master\hr-management-system-master\target\classes\com\selimhorri\app\pack\repositories\UserCredentialRepository.class]
+2023-03-20 14:45:54.911 DEBUG 28012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Registering deferred repository initialization listener.
+2023-03-20 14:45:54.912  INFO 28012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48ms. Found 3 JPA repository interfaces.
+2023-03-20 14:45:55.038  INFO 28012 --- [restartedMain] c.s.app.pack.configs.CorsConfig          : ************ entering com.selimhorri.app.pack.configs.CorsConfig ************
+2023-03-20 14:45:55.040  INFO 28012 --- [restartedMain] c.s.app.pack.configs.MapperConfig        : ************ entering com.selimhorri.app.pack.configs.MapperConfig ************
+2023-03-20 14:45:55.328  INFO 28012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2323 (http)
+2023-03-20 14:45:55.336  INFO 28012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-20 14:45:55.336  INFO 28012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-03-20 14:45:55.399  INFO 28012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-20 14:45:55.399  INFO 28012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1276 ms
+2023-03-20 14:45:55.441 DEBUG 28012 --- [restartedMain] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2023-03-20 14:45:55.546  INFO 28012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-20 14:45:55.576 DEBUG 28012 --- [restartedMain] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.DepartmentRepository…
+2023-03-20 14:45:55.583  INFO 28012 --- [restartedMain] c.s.a.p.s.impls.DepartmentServiceImpl    : ************ entering com.selimhorri.app.pack.services.impls.DepartmentServiceImpl ************
+2023-03-20 14:45:55.584  INFO 28012 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-20 14:45:55.595  INFO 28012 --- [restartedMain] c.s.a.p.c.DepartmentController           : ************ entering com.selimhorri.app.pack.controllers.DepartmentController ************
+2023-03-20 14:45:55.597 DEBUG 28012 --- [restartedMain] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.EmployeeRepository…
+2023-03-20 14:45:55.622  INFO 28012 --- [restartedMain] c.s.a.p.s.impls.EmployeeServiceImpl      : ************ entering com.selimhorri.app.pack.services.impls.EmployeeServiceImpl ************
+2023-03-20 14:45:55.626  INFO 28012 --- [restartedMain] c.s.a.p.controllers.EmployeeController   : ************ entering com.selimhorri.app.pack.controllers.EmployeeController ************
+2023-03-20 14:45:55.627  INFO 28012 --- [restartedMain] c.s.app.pack.controllers.HomeController  : ************ entering com.selimhorri.app.pack.controllers.HomeController ************
+2023-03-20 14:45:55.630  INFO 28012 --- [restartedMain] c.s.a.p.c.api.DepartmentRESTController   : ************ entering com.selimhorri.app.pack.controllers.api.DepartmentRESTController ************
+2023-03-20 14:45:55.633  INFO 28012 --- [restartedMain] c.s.a.p.c.api.EmployeeRESTController     : ************ entering com.selimhorri.app.pack.controllers.api.EmployeeRESTController ************
+2023-03-20 14:45:55.634 DEBUG 28012 --- [restartedMain] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.UserCredentialRepository…
+2023-03-20 14:45:55.636  INFO 28012 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2023-03-20 14:45:55.648  INFO 28012 --- [restartedMain] c.s.app.pack.exceptions.ApiHandler       : ************ entering com.selimhorri.app.pack.exceptions.ApiHandler ************
+2023-03-20 14:45:55.690  WARN 28012 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-20 14:45:55.792  INFO 28012 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-03-20 14:45:55.807  INFO 28012 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33ee4bf7, org.springframework.security.web.context.SecurityContextPersistenceFilter@58309b20, org.springframework.security.web.header.HeaderWriterFilter@52a5e378, org.springframework.security.web.authentication.logout.LogoutFilter@2531cf73, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1e5840d2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@54a3fb8e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@40f18454, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@447bbe54, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@463b3ba3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e0c6221, org.springframework.security.web.session.SessionManagementFilter@56f5fa5a, org.springframework.security.web.access.ExceptionTranslationFilter@4adceae8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1269bde9]
+2023-03-20 14:45:55.879  INFO 28012 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-20 14:45:55.891 DEBUG 28012 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-20 14:45:55.942 DEBUG 28012 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2023-03-20 14:45:55.957 DEBUG 28012 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-03-20 14:45:55.966 DEBUG 28012 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-20 14:45:56.002  INFO 28012 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-20 14:45:56.016  INFO 28012 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-03-20 14:45:56.071  WARN 28012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-20 14:45:56.128  INFO 28012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2323 (http) with context path ''
+2023-03-20 14:45:56.130  INFO 28012 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-03-20 14:45:56.166 DEBUG 28012 --- [restartedMain] .c.JpaMetamodelMappingContextFactoryBean : Initializing JpaMetamodelMappingContext…
+2023-03-20 14:45:56.458  INFO 28012 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 14:45:56.463  INFO 28012 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 14:45:56.472 DEBUG 28012 --- [restartedMain] .c.JpaMetamodelMappingContextFactoryBean : Finished initializing JpaMetamodelMappingContext!
+2023-03-20 14:45:56.557 DEBUG 28012 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository…
+2023-03-20 14:45:56.606 DEBUG 28012 --- [restartedMain] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method findByUsername
+2023-03-20 14:45:56.621 DEBUG 28012 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository.
+2023-03-20 14:45:56.625 DEBUG 28012 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository…
+2023-03-20 14:45:56.631 DEBUG 28012 --- [restartedMain] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method getBoss
+2023-03-20 14:45:56.633 DEBUG 28012 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository.
+2023-03-20 14:45:56.636 DEBUG 28012 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository…
+2023-03-20 14:45:56.643 DEBUG 28012 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository.
+2023-03-20 14:45:56.643  INFO 28012 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-03-20 14:45:56.649  INFO 28012 --- [restartedMain] c.s.a.p.HrManagementSystemApplication    : Started HrManagementSystemApplication in 2.877 seconds (JVM running for 3.476)
+2023-03-20 14:46:11.813  INFO 28012 --- [http-nio-2323-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-20 14:46:11.814  INFO 28012 --- [http-nio-2323-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-20 14:46:11.814 DEBUG 28012 --- [http-nio-2323-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-03-20 14:46:11.819 DEBUG 28012 --- [http-nio-2323-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-03-20 14:46:11.820  INFO 28012 --- [http-nio-2323-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-03-20 14:46:11.846 DEBUG 28012 --- [http-nio-2323-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-20 14:46:11.849 DEBUG 28012 --- [http-nio-2323-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.selimhorri.app.pack.controllers.HomeController#displayIndex(Model)
+2023-03-20 14:46:11.881 DEBUG 28012 --- [http-nio-2323-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-20 14:46:12.244 DEBUG 28012 --- [http-nio-2323-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-20 14:46:12.778 DEBUG 28012 --- [http-nio-2323-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2023-03-20 14:46:12.778 DEBUG 28012 --- [http-nio-2323-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2023-03-20 14:46:12.778 DEBUG 28012 --- [http-nio-2323-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2023-03-20 14:46:12.778 DEBUG 28012 --- [http-nio-2323-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2023-03-20 14:46:12.791 DEBUG 28012 --- [http-nio-2323-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-03-20 14:46:12.791  INFO 28012 --- [http-nio-2323-exec-2] c.s.a.p.controllers.ErrorAppController   : ************ entering com.selimhorri.app.pack.controllers.ErrorAppController ************
+2023-03-20 14:46:12.792 DEBUG 28012 --- [http-nio-2323-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.selimhorri.app.pack.controllers.ErrorAppController#handleError(HttpServletRequest)
+2023-03-20 14:46:12.792 ERROR 28012 --- [http-nio-2323-exec-2] c.s.a.p.controllers.ErrorAppController   : >>>>>>>>>>>>> Status Code: 404 <<<<<<<<<<<<<
+2023-03-20 14:46:12.792 ERROR 28012 --- [http-nio-2323-exec-2] c.s.a.p.controllers.ErrorAppController   : >>>>>>>>>>>>> Error encountred: 404 <<<<<<<<<<<<<
+2023-03-20 14:46:12.794 DEBUG 28012 --- [http-nio-2323-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*;q=0.8' given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8]
+2023-03-20 14:46:12.808 DEBUG 28012 --- [http-nio-2323-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2023-03-20 14:46:23.822 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* dynamic native SQL query */ SELECT
+        * 
+    FROM
+        users_credentials 
+    WHERE
+        LOWER(username) = ? 
+2023-03-20 14:46:24.043 DEBUG 28012 --- [http-nio-2323-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2023-03-20 14:46:24.043 DEBUG 28012 --- [http-nio-2323-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.selimhorri.app.pack.controllers.HomeController#displayIndex(Model)
+2023-03-20 14:46:24.046 DEBUG 28012 --- [http-nio-2323-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-20 14:46:24.053 DEBUG 28012 --- [http-nio-2323-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-20 14:46:26.813 DEBUG 28012 --- [http-nio-2323-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/app/employees/employees-list", parameters={}
+2023-03-20 14:46:26.814 DEBUG 28012 --- [http-nio-2323-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.selimhorri.app.pack.controllers.EmployeeController#displayEmployeesList(Model)
+2023-03-20 14:46:26.934 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    /* select
+        generatedAlias0 
+    from
+        employees as generatedAlias0 */ select
+            employee0_.empno as empno1_1_,
+            employee0_.comm as comm2_1_,
+            employee0_.deptno as deptno8_1_,
+            employee0_.ename as ename3_1_,
+            employee0_.hiredate as hiredate4_1_,
+            employee0_.job as job5_1_,
+            employee0_.mgr as mgr6_1_,
+            employee0_.sal as sal7_1_ 
+        from
+            employees employee0_
+2023-03-20 14:46:26.947 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    select
+        department0_.deptno as deptno1_0_0_,
+        department0_.dname as dname2_0_0_,
+        department0_.loc as loc3_0_0_ 
+    from
+        departments department0_ 
+    where
+        department0_.deptno=?
+2023-03-20 14:46:26.963 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:26.966 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:26.967 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    select
+        department0_.deptno as deptno1_0_0_,
+        department0_.dname as dname2_0_0_,
+        department0_.loc as loc3_0_0_ 
+    from
+        departments department0_ 
+    where
+        department0_.deptno=?
+2023-03-20 14:46:26.968 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:26.970 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    select
+        department0_.deptno as deptno1_0_0_,
+        department0_.dname as dname2_0_0_,
+        department0_.loc as loc3_0_0_ 
+    from
+        departments department0_ 
+    where
+        department0_.deptno=?
+2023-03-20 14:46:26.971 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:26.972 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:26.974 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:26.976 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:26.978 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:26.985 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:26.986 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:26.988 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:26.989 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:26.990 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:26.991 DEBUG 28012 --- [http-nio-2323-exec-10] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:26.999 DEBUG 28012 --- [http-nio-2323-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-20 14:46:27.032 DEBUG 28012 --- [http-nio-2323-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-20 14:46:30.939 DEBUG 28012 --- [http-nio-2323-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/app/employees/employees-list", parameters={}
+2023-03-20 14:46:30.940 DEBUG 28012 --- [http-nio-2323-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.selimhorri.app.pack.controllers.EmployeeController#displayEmployeesList(Model)
+2023-03-20 14:46:30.942 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    /* select
+        generatedAlias0 
+    from
+        employees as generatedAlias0 */ select
+            employee0_.empno as empno1_1_,
+            employee0_.comm as comm2_1_,
+            employee0_.deptno as deptno8_1_,
+            employee0_.ename as ename3_1_,
+            employee0_.hiredate as hiredate4_1_,
+            employee0_.job as job5_1_,
+            employee0_.mgr as mgr6_1_,
+            employee0_.sal as sal7_1_ 
+        from
+            employees employee0_
+2023-03-20 14:46:30.947 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    select
+        department0_.deptno as deptno1_0_0_,
+        department0_.dname as dname2_0_0_,
+        department0_.loc as loc3_0_0_ 
+    from
+        departments department0_ 
+    where
+        department0_.deptno=?
+2023-03-20 14:46:30.949 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:30.952 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:30.954 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    select
+        department0_.deptno as deptno1_0_0_,
+        department0_.dname as dname2_0_0_,
+        department0_.loc as loc3_0_0_ 
+    from
+        departments department0_ 
+    where
+        department0_.deptno=?
+2023-03-20 14:46:30.956 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:30.958 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    select
+        department0_.deptno as deptno1_0_0_,
+        department0_.dname as dname2_0_0_,
+        department0_.loc as loc3_0_0_ 
+    from
+        departments department0_ 
+    where
+        department0_.deptno=?
+2023-03-20 14:46:30.959 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:30.961 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:30.962 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:30.964 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:30.966 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:30.968 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:30.969 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:30.971 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:30.972 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:30.974 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:30.975 DEBUG 28012 --- [http-nio-2323-exec-4] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:30.978 DEBUG 28012 --- [http-nio-2323-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-20 14:46:30.999 DEBUG 28012 --- [http-nio-2323-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-20 14:46:32.954 DEBUG 28012 --- [http-nio-2323-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-03-20 14:46:32.954 DEBUG 28012 --- [http-nio-2323-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.selimhorri.app.pack.controllers.ErrorAppController#handleError(HttpServletRequest)
+2023-03-20 14:46:32.955 ERROR 28012 --- [http-nio-2323-exec-3] c.s.a.p.controllers.ErrorAppController   : >>>>>>>>>>>>> Status Code: 403 <<<<<<<<<<<<<
+2023-03-20 14:46:32.955 ERROR 28012 --- [http-nio-2323-exec-3] c.s.a.p.controllers.ErrorAppController   : >>>>>>>>>>>>> Error encountred: 403 <<<<<<<<<<<<<
+2023-03-20 14:46:32.955 DEBUG 28012 --- [http-nio-2323-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-20 14:46:32.967 DEBUG 28012 --- [http-nio-2323-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 403
+2023-03-20 14:46:35.395 DEBUG 28012 --- [http-nio-2323-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/app/employees/employees-list", parameters={}
+2023-03-20 14:46:35.396 DEBUG 28012 --- [http-nio-2323-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.selimhorri.app.pack.controllers.EmployeeController#displayEmployeesList(Model)
+2023-03-20 14:46:35.399 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    /* select
+        generatedAlias0 
+    from
+        employees as generatedAlias0 */ select
+            employee0_.empno as empno1_1_,
+            employee0_.comm as comm2_1_,
+            employee0_.deptno as deptno8_1_,
+            employee0_.ename as ename3_1_,
+            employee0_.hiredate as hiredate4_1_,
+            employee0_.job as job5_1_,
+            employee0_.mgr as mgr6_1_,
+            employee0_.sal as sal7_1_ 
+        from
+            employees employee0_
+2023-03-20 14:46:35.405 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    select
+        department0_.deptno as deptno1_0_0_,
+        department0_.dname as dname2_0_0_,
+        department0_.loc as loc3_0_0_ 
+    from
+        departments department0_ 
+    where
+        department0_.deptno=?
+2023-03-20 14:46:35.406 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:35.408 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:35.410 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    select
+        department0_.deptno as deptno1_0_0_,
+        department0_.dname as dname2_0_0_,
+        department0_.loc as loc3_0_0_ 
+    from
+        departments department0_ 
+    where
+        department0_.deptno=?
+2023-03-20 14:46:35.412 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:35.414 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    select
+        department0_.deptno as deptno1_0_0_,
+        department0_.dname as dname2_0_0_,
+        department0_.loc as loc3_0_0_ 
+    from
+        departments department0_ 
+    where
+        department0_.deptno=?
+2023-03-20 14:46:35.416 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:35.419 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:35.420 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:35.422 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:35.423 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:35.424 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:35.426 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:35.427 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:35.429 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:35.431 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:35.432 DEBUG 28012 --- [http-nio-2323-exec-7] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:35.436 DEBUG 28012 --- [http-nio-2323-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-20 14:46:35.445 DEBUG 28012 --- [http-nio-2323-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-20 14:46:36.755 DEBUG 28012 --- [http-nio-2323-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/app/employees/employees-list", parameters={}
+2023-03-20 14:46:36.755 DEBUG 28012 --- [http-nio-2323-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.selimhorri.app.pack.controllers.EmployeeController#displayEmployeesList(Model)
+2023-03-20 14:46:36.758 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* select
+        generatedAlias0 
+    from
+        employees as generatedAlias0 */ select
+            employee0_.empno as empno1_1_,
+            employee0_.comm as comm2_1_,
+            employee0_.deptno as deptno8_1_,
+            employee0_.ename as ename3_1_,
+            employee0_.hiredate as hiredate4_1_,
+            employee0_.job as job5_1_,
+            employee0_.mgr as mgr6_1_,
+            employee0_.sal as sal7_1_ 
+        from
+            employees employee0_
+2023-03-20 14:46:36.761 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    select
+        department0_.deptno as deptno1_0_0_,
+        department0_.dname as dname2_0_0_,
+        department0_.loc as loc3_0_0_ 
+    from
+        departments department0_ 
+    where
+        department0_.deptno=?
+2023-03-20 14:46:36.763 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:36.765 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:36.767 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    select
+        department0_.deptno as deptno1_0_0_,
+        department0_.dname as dname2_0_0_,
+        department0_.loc as loc3_0_0_ 
+    from
+        departments department0_ 
+    where
+        department0_.deptno=?
+2023-03-20 14:46:36.769 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:36.771 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    select
+        department0_.deptno as deptno1_0_0_,
+        department0_.dname as dname2_0_0_,
+        department0_.loc as loc3_0_0_ 
+    from
+        departments department0_ 
+    where
+        department0_.deptno=?
+2023-03-20 14:46:36.773 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:36.775 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:36.777 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:36.778 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:36.780 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:36.781 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:36.782 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:36.783 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:36.784 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:36.785 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:36.786 DEBUG 28012 --- [http-nio-2323-exec-8] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:36.789 DEBUG 28012 --- [http-nio-2323-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-20 14:46:36.796 DEBUG 28012 --- [http-nio-2323-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-20 14:46:40.828 DEBUG 28012 --- [http-nio-2323-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/app/employees/employees-add", parameters={}
+2023-03-20 14:46:40.828 DEBUG 28012 --- [http-nio-2323-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.selimhorri.app.pack.controllers.EmployeeController#displayEmployeeAdd(Model)
+2023-03-20 14:46:40.837 DEBUG 28012 --- [http-nio-2323-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-20 14:46:40.883 DEBUG 28012 --- [http-nio-2323-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-20 14:46:43.686 DEBUG 28012 --- [http-nio-2323-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/app/employees/employees-list", parameters={}
+2023-03-20 14:46:43.686 DEBUG 28012 --- [http-nio-2323-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.selimhorri.app.pack.controllers.EmployeeController#displayEmployeesList(Model)
+2023-03-20 14:46:43.688 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    /* select
+        generatedAlias0 
+    from
+        employees as generatedAlias0 */ select
+            employee0_.empno as empno1_1_,
+            employee0_.comm as comm2_1_,
+            employee0_.deptno as deptno8_1_,
+            employee0_.ename as ename3_1_,
+            employee0_.hiredate as hiredate4_1_,
+            employee0_.job as job5_1_,
+            employee0_.mgr as mgr6_1_,
+            employee0_.sal as sal7_1_ 
+        from
+            employees employee0_
+2023-03-20 14:46:43.691 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    select
+        department0_.deptno as deptno1_0_0_,
+        department0_.dname as dname2_0_0_,
+        department0_.loc as loc3_0_0_ 
+    from
+        departments department0_ 
+    where
+        department0_.deptno=?
+2023-03-20 14:46:43.692 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:43.693 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:43.695 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    select
+        department0_.deptno as deptno1_0_0_,
+        department0_.dname as dname2_0_0_,
+        department0_.loc as loc3_0_0_ 
+    from
+        departments department0_ 
+    where
+        department0_.deptno=?
+2023-03-20 14:46:43.696 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:43.696 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    select
+        department0_.deptno as deptno1_0_0_,
+        department0_.dname as dname2_0_0_,
+        department0_.loc as loc3_0_0_ 
+    from
+        departments department0_ 
+    where
+        department0_.deptno=?
+2023-03-20 14:46:43.698 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:43.700 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:43.701 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:43.702 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:43.704 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:43.705 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:43.706 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:43.707 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:43.708 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:43.709 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:43.709 DEBUG 28012 --- [http-nio-2323-exec-2] org.hibernate.SQL                        : 
+    /* load com.selimhorri.app.pack.models.entities.UserCredential */ select
+        usercreden0_.user_id as user_id1_2_0_,
+        usercreden0_.email as email2_2_0_,
+        usercreden0_.employee_empno as employee8_2_0_,
+        usercreden0_.enabled as enabled3_2_0_,
+        usercreden0_.password as password4_2_0_,
+        usercreden0_.phone as phone5_2_0_,
+        usercreden0_.role as role6_2_0_,
+        usercreden0_.username as username7_2_0_ 
+    from
+        users_credentials usercreden0_ 
+    where
+        usercreden0_.employee_empno=?
+2023-03-20 14:46:43.712 DEBUG 28012 --- [http-nio-2323-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2023-03-20 14:46:43.719 DEBUG 28012 --- [http-nio-2323-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-03-20 14:54:06.078  INFO 28012 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-20 14:54:06.142  INFO 28012 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 14:54:06.144  INFO 28012 --- [RMI TCP Connection(10)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-20 14:54:06.145  INFO 28012 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-20 14:54:06.153  INFO 28012 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-20 14:54:07.855  INFO 24680 --- [restartedMain] c.s.a.p.HrManagementSystemApplication    : Starting HrManagementSystemApplication on LAPTOP-LT6KAC91 with PID 24680 (C:\Users\balra\Downloads\hr-management-system-master\hr-management-system-master\target\classes started by balra in C:\Users\balra\Downloads\hr-management-system-master\hr-management-system-master)
+2023-03-20 14:54:07.857  INFO 24680 --- [restartedMain] c.s.a.p.HrManagementSystemApplication    : No active profile set, falling back to default profiles: default
+2023-03-20 14:54:07.894  INFO 24680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-20 14:54:07.894  INFO 24680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-20 14:54:08.395  INFO 24680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-03-20 14:54:08.406 DEBUG 24680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Scanning for JPA repositories in packages com.selimhorri.app.pack.
+2023-03-20 14:54:08.418 DEBUG 24680 --- [restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [C:\Users\balra\Downloads\hr-management-system-master\hr-management-system-master\target\classes\com\selimhorri\app\pack\repositories\DepartmentRepository.class]
+2023-03-20 14:54:08.418 DEBUG 24680 --- [restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [C:\Users\balra\Downloads\hr-management-system-master\hr-management-system-master\target\classes\com\selimhorri\app\pack\repositories\EmployeeRepository.class]
+2023-03-20 14:54:08.418 DEBUG 24680 --- [restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [C:\Users\balra\Downloads\hr-management-system-master\hr-management-system-master\target\classes\com\selimhorri\app\pack\repositories\UserCredentialRepository.class]
+2023-03-20 14:54:08.451 DEBUG 24680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Registering deferred repository initialization listener.
+2023-03-20 14:54:08.451  INFO 24680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 3 JPA repository interfaces.
+2023-03-20 14:54:08.569  INFO 24680 --- [restartedMain] c.s.app.pack.configs.CorsConfig          : ************ entering com.selimhorri.app.pack.configs.CorsConfig ************
+2023-03-20 14:54:08.571  INFO 24680 --- [restartedMain] c.s.app.pack.configs.MapperConfig        : ************ entering com.selimhorri.app.pack.configs.MapperConfig ************
+2023-03-20 14:54:08.847  INFO 24680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2323 (http)
+2023-03-20 14:54:08.855  INFO 24680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-20 14:54:08.855  INFO 24680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-03-20 14:54:08.917  INFO 24680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-20 14:54:08.917  INFO 24680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1022 ms
+2023-03-20 14:54:08.970 DEBUG 24680 --- [restartedMain] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2023-03-20 14:54:09.068  INFO 24680 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-20 14:54:09.095 DEBUG 24680 --- [restartedMain] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.DepartmentRepository…
+2023-03-20 14:54:09.101  INFO 24680 --- [restartedMain] c.s.a.p.s.impls.DepartmentServiceImpl    : ************ entering com.selimhorri.app.pack.services.impls.DepartmentServiceImpl ************
+2023-03-20 14:54:09.103  INFO 24680 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-20 14:54:09.113  INFO 24680 --- [restartedMain] c.s.a.p.c.DepartmentController           : ************ entering com.selimhorri.app.pack.controllers.DepartmentController ************
+2023-03-20 14:54:09.116 DEBUG 24680 --- [restartedMain] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.EmployeeRepository…
+2023-03-20 14:54:09.138  INFO 24680 --- [restartedMain] c.s.a.p.s.impls.EmployeeServiceImpl      : ************ entering com.selimhorri.app.pack.services.impls.EmployeeServiceImpl ************
+2023-03-20 14:54:09.142  INFO 24680 --- [restartedMain] c.s.a.p.controllers.EmployeeController   : ************ entering com.selimhorri.app.pack.controllers.EmployeeController ************
+2023-03-20 14:54:09.143  INFO 24680 --- [restartedMain] c.s.app.pack.controllers.HomeController  : ************ entering com.selimhorri.app.pack.controllers.HomeController ************
+2023-03-20 14:54:09.146  INFO 24680 --- [restartedMain] c.s.a.p.c.api.DepartmentRESTController   : ************ entering com.selimhorri.app.pack.controllers.api.DepartmentRESTController ************
+2023-03-20 14:54:09.148  INFO 24680 --- [restartedMain] c.s.a.p.c.api.EmployeeRESTController     : ************ entering com.selimhorri.app.pack.controllers.api.EmployeeRESTController ************
+2023-03-20 14:54:09.150 DEBUG 24680 --- [restartedMain] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.UserCredentialRepository…
+2023-03-20 14:54:09.162  INFO 24680 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2023-03-20 14:54:09.162  INFO 24680 --- [restartedMain] c.s.app.pack.exceptions.ApiHandler       : ************ entering com.selimhorri.app.pack.exceptions.ApiHandler ************
+2023-03-20 14:54:09.208  WARN 24680 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-20 14:54:09.294  INFO 24680 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-03-20 14:54:09.321  INFO 24680 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@270f580, org.springframework.security.web.context.SecurityContextPersistenceFilter@ba42b6b, org.springframework.security.web.header.HeaderWriterFilter@2531cf73, org.springframework.security.web.authentication.logout.LogoutFilter@3b92b361, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2d16f2cf, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@425debcb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4c4e62bb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65f42958, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42f14da1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c3990a0, org.springframework.security.web.session.SessionManagementFilter@6ddf570a, org.springframework.security.web.access.ExceptionTranslationFilter@1ffd251e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46de2b1f]
+2023-03-20 14:54:09.376  INFO 24680 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-20 14:54:09.412 DEBUG 24680 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-20 14:54:09.462 DEBUG 24680 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2023-03-20 14:54:09.480 DEBUG 24680 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-03-20 14:54:09.486 DEBUG 24680 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-20 14:54:09.490  INFO 24680 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-20 14:54:09.506  INFO 24680 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-03-20 14:54:09.586  WARN 24680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-03-20 14:54:09.644  INFO 24680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2323 (http) with context path ''
+2023-03-20 14:54:09.645  INFO 24680 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-03-20 14:54:09.673 DEBUG 24680 --- [restartedMain] .c.JpaMetamodelMappingContextFactoryBean : Initializing JpaMetamodelMappingContext…
+2023-03-20 14:54:09.910  INFO 24680 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 14:54:09.915  INFO 24680 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 14:54:09.921 DEBUG 24680 --- [restartedMain] .c.JpaMetamodelMappingContextFactoryBean : Finished initializing JpaMetamodelMappingContext!
+2023-03-20 14:54:10.005 DEBUG 24680 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository…
+2023-03-20 14:54:10.044 DEBUG 24680 --- [restartedMain] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method getBoss
+2023-03-20 14:54:10.055 DEBUG 24680 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository.
+2023-03-20 14:54:10.060 DEBUG 24680 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository…
+2023-03-20 14:54:10.069 DEBUG 24680 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository.
+2023-03-20 14:54:10.071 DEBUG 24680 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository…
+2023-03-20 14:54:10.080 DEBUG 24680 --- [restartedMain] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method findByUsername
+2023-03-20 14:54:10.084 DEBUG 24680 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository.
+2023-03-20 14:54:10.084  INFO 24680 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-03-20 14:54:10.091  INFO 24680 --- [restartedMain] c.s.a.p.HrManagementSystemApplication    : Started HrManagementSystemApplication in 2.482 seconds (JVM running for 3.036)
+2023-03-20 15:14:56.217  INFO 24680 --- [RMI TCP Connection(25)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-20 15:14:56.409  INFO 24680 --- [RMI TCP Connection(25)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 15:14:56.433  INFO 24680 --- [RMI TCP Connection(25)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-20 15:14:56.436  INFO 24680 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-20 15:14:56.463  INFO 24680 --- [RMI TCP Connection(25)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-20 15:14:58.491  INFO 29552 --- [restartedMain] c.s.a.p.HrManagementSystemApplication    : Starting HrManagementSystemApplication on LAPTOP-LT6KAC91 with PID 29552 (C:\Users\balra\Downloads\hr-management-system-master\hr-management-system-master\target\classes started by balra in C:\Users\balra\Downloads\hr-management-system-master\hr-management-system-master)
+2023-03-20 15:14:58.493  INFO 29552 --- [restartedMain] c.s.a.p.HrManagementSystemApplication    : No active profile set, falling back to default profiles: default
+2023-03-20 15:14:58.535  INFO 29552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-20 15:14:58.535  INFO 29552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-20 15:14:59.007  INFO 29552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2023-03-20 15:14:59.020 DEBUG 29552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Scanning for JPA repositories in packages com.selimhorri.app.pack.
+2023-03-20 15:14:59.029 DEBUG 29552 --- [restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [C:\Users\balra\Downloads\hr-management-system-master\hr-management-system-master\target\classes\com\selimhorri\app\pack\repositories\DepartmentRepository.class]
+2023-03-20 15:14:59.029 DEBUG 29552 --- [restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [C:\Users\balra\Downloads\hr-management-system-master\hr-management-system-master\target\classes\com\selimhorri\app\pack\repositories\EmployeeRepository.class]
+2023-03-20 15:14:59.029 DEBUG 29552 --- [restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [C:\Users\balra\Downloads\hr-management-system-master\hr-management-system-master\target\classes\com\selimhorri\app\pack\repositories\UserCredentialRepository.class]
+2023-03-20 15:14:59.070 DEBUG 29552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Registering deferred repository initialization listener.
+2023-03-20 15:14:59.071  INFO 29552 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 3 JPA repository interfaces.
+2023-03-20 15:14:59.207  INFO 29552 --- [restartedMain] c.s.app.pack.configs.CorsConfig          : ************ entering com.selimhorri.app.pack.configs.CorsConfig ************
+2023-03-20 15:14:59.209  INFO 29552 --- [restartedMain] c.s.app.pack.configs.MapperConfig        : ************ entering com.selimhorri.app.pack.configs.MapperConfig ************
+2023-03-20 15:14:59.483  INFO 29552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2323 (http)
+2023-03-20 15:14:59.491  INFO 29552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-20 15:14:59.491  INFO 29552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-03-20 15:14:59.554  INFO 29552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-20 15:14:59.555  INFO 29552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1019 ms
+2023-03-20 15:14:59.610 DEBUG 29552 --- [restartedMain] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2023-03-20 15:14:59.712  INFO 29552 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-20 15:14:59.740 DEBUG 29552 --- [restartedMain] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.DepartmentRepository…
+2023-03-20 15:14:59.746  INFO 29552 --- [restartedMain] c.s.a.p.s.impls.DepartmentServiceImpl    : ************ entering com.selimhorri.app.pack.services.impls.DepartmentServiceImpl ************
+2023-03-20 15:14:59.747  INFO 29552 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-20 15:14:59.758  INFO 29552 --- [restartedMain] c.s.a.p.c.DepartmentController           : ************ entering com.selimhorri.app.pack.controllers.DepartmentController ************
+2023-03-20 15:14:59.760 DEBUG 29552 --- [restartedMain] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.EmployeeRepository…
+2023-03-20 15:14:59.782  INFO 29552 --- [restartedMain] c.s.a.p.s.impls.EmployeeServiceImpl      : ************ entering com.selimhorri.app.pack.services.impls.EmployeeServiceImpl ************
+2023-03-20 15:14:59.784  INFO 29552 --- [restartedMain] c.s.a.p.controllers.EmployeeController   : ************ entering com.selimhorri.app.pack.controllers.EmployeeController ************
+2023-03-20 15:14:59.785  INFO 29552 --- [restartedMain] c.s.app.pack.controllers.HomeController  : ************ entering com.selimhorri.app.pack.controllers.HomeController ************
+2023-03-20 15:14:59.788  INFO 29552 --- [restartedMain] c.s.a.p.c.api.DepartmentRESTController   : ************ entering com.selimhorri.app.pack.controllers.api.DepartmentRESTController ************
+2023-03-20 15:14:59.789  INFO 29552 --- [restartedMain] c.s.a.p.c.api.EmployeeRESTController     : ************ entering com.selimhorri.app.pack.controllers.api.EmployeeRESTController ************
+2023-03-20 15:14:59.791 DEBUG 29552 --- [restartedMain] ate$LazyRepositoryInjectionPointResolver : Creating lazy injection proxy for com.selimhorri.app.pack.repositories.UserCredentialRepository…
+2023-03-20 15:14:59.802  INFO 29552 --- [restartedMain] c.s.app.pack.exceptions.ApiHandler       : ************ entering com.selimhorri.app.pack.exceptions.ApiHandler ************
+2023-03-20 15:14:59.805  INFO 29552 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2023-03-20 15:14:59.842  WARN 29552 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-20 15:14:59.954  INFO 29552 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b692aec, org.springframework.security.web.context.SecurityContextPersistenceFilter@16132213, org.springframework.security.web.header.HeaderWriterFilter@72045715, org.springframework.security.web.authentication.logout.LogoutFilter@5a3b63d1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@50e41c7e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3eb35a94, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@ba519b1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69bd2226, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4dd8c973, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d06b71c, org.springframework.security.web.session.SessionManagementFilter@6c2af8ab, org.springframework.security.web.access.ExceptionTranslationFilter@20453247, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d16f2cf]
+2023-03-20 15:14:59.970  INFO 29552 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-03-20 15:15:00.044 DEBUG 29552 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-03-20 15:15:00.073  INFO 29552 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-20 15:15:00.108 DEBUG 29552 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 26 mappings in 'requestMappingHandlerMapping'
+2023-03-20 15:15:00.125 DEBUG 29552 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-03-20 15:15:00.134 DEBUG 29552 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-03-20 15:15:00.210  INFO 29552 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-20 15:15:00.224  INFO 29552 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-03-20 15:15:00.228  INFO 29552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-20 15:15:00.297  INFO 29552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2323 (http) with context path ''
+2023-03-20 15:15:00.298  INFO 29552 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2023-03-20 15:15:00.323 DEBUG 29552 --- [restartedMain] .c.JpaMetamodelMappingContextFactoryBean : Initializing JpaMetamodelMappingContext…
+2023-03-20 15:15:00.620  INFO 29552 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-20 15:15:00.625  INFO 29552 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 15:15:00.638 DEBUG 29552 --- [restartedMain] .c.JpaMetamodelMappingContextFactoryBean : Finished initializing JpaMetamodelMappingContext!
+2023-03-20 15:15:00.715 DEBUG 29552 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository…
+2023-03-20 15:15:00.749 DEBUG 29552 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.DepartmentRepository.
+2023-03-20 15:15:00.754 DEBUG 29552 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository…
+2023-03-20 15:15:00.770 DEBUG 29552 --- [restartedMain] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method getBoss
+2023-03-20 15:15:00.783 DEBUG 29552 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.EmployeeRepository.
+2023-03-20 15:15:00.786 DEBUG 29552 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository…
+2023-03-20 15:15:00.793 DEBUG 29552 --- [restartedMain] o.s.d.j.r.query.JpaQueryFactory          : Looking up query for method findByUsername
+2023-03-20 15:15:00.797 DEBUG 29552 --- [restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.selimhorri.app.pack.repositories.UserCredentialRepository.
+2023-03-20 15:15:00.797  INFO 29552 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2023-03-20 15:15:00.803  INFO 29552 --- [restartedMain] c.s.a.p.HrManagementSystemApplication    : Started HrManagementSystemApplication in 2.565 seconds (JVM running for 3.177)
+2023-03-20 15:53:01.331  WARN 29552 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m30s631ms887µs300ns).
+2023-03-20 16:15:41.196  WARN 29552 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m9s744ms621µs200ns).
+2023-03-20 16:25:56.163  WARN 29552 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m14s883ms506µs800ns).
+2023-03-20 21:34:56.882  WARN 29552 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h26m36s824ms999µs900ns).
+2023-03-20 21:51:17.212  WARN 29552 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m50s104ms980µs600ns).
+2023-03-20 22:10:42.704  INFO 29552 --- [RMI TCP Connection(121)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-20 22:10:43.177  INFO 29552 --- [RMI TCP Connection(121)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-20 22:10:43.229  INFO 29552 --- [RMI TCP Connection(121)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-03-20 22:10:43.242  INFO 29552 --- [RMI TCP Connection(121)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-20 22:10:43.256  INFO 29552 --- [RMI TCP Connection(121)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
